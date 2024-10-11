@@ -22,14 +22,17 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
     }
+
     override fun onPause() {
         super.onPause()
         Log.info("onPause")
     }
+
     override fun onRestart() {
         super.onRestart()
         Log.info("onRestart")
     }
+
     override fun onResume() {
         super.onResume()
         Log.info("onResume")
